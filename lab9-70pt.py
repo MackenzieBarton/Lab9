@@ -14,10 +14,8 @@
 # Output answer
 
 
-print "please input a celcius temperature to convert"
-def cel():
-    cel = int(raw_input())
-    cel = cel * 9 / 5 + 32 
-
-    
-print cel
+userInput = int(raw_input())
+userInput = userInput * 9
+userInput = userInput / 5
+userInput = userInput + 32
+print userInput
